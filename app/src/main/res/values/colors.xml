@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1abc9c</color>
+    <color name="colorPrimaryDark">#16a085</color>
+    <color name="colorAccent">#e74c3c</color>
+
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_start">#b21331</color>
+    <color name="bg_gradient_end">#820d2a</color>
+    <color name="bg_button_login">#380813</color>
+
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="indigo_blue">#3F51B5</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green">#38be55</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#e94f4f</color>
+    <color name="brown">#4e342e</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stfalcon.chatkit.dialogs.DialogsList
+        android:layout_margin="5dp"
+        android:id="@+id/dialoglist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.stfalcon.chatkit.dialogs.DialogsList>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        app:fab_addButtonSize="normal"
+        app:fab_labelStyle="@style/menu_labels_style"
+        app:fab_addButtonColorNormal="@color/colorAccent"
+        android:backgroundTint="@color/colorAccent"
+        app:srcCompat="@drawable/ic_message_white_24dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_new_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_broadcast_white_24dp"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_labelStyle="@style/menu_labels_style"
+            app:fab_title="@string/broadcast_users"/>
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_new_mcs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_broadcast_white_24dp"
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_size="mini"
+            app:fab_title="@string/broadcast_volunteers"/>
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_new_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_message_white_24dp"
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_icon="@drawable/ic_message_white_24dp"
+            app:fab_size="mini"
+            app:fab_title="@string/cp_contact_tab_title"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
